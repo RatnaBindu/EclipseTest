@@ -8,6 +8,8 @@ public class Amazon {
 		       WebDriver driver = new FirefoxDriver();
 		       driver.get("http://google.com");
 		       driver.get("http://gmail.com");
+		       driver.get("http://yahoo.com");
+		       driver.get("http://hotmail.com");
 		       System.out.write(0);
 		       System.out.println(driver.getTitle());
 		       driver.close();
