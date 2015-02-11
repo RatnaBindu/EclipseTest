@@ -7,6 +7,7 @@ public class Amazon {
 		   {
 		       WebDriver driver = new FirefoxDriver();
 		       driver.get("http://google.com");
+		       System.out.write(0);
 		       System.out.println(driver.getTitle());
 		       driver.close();
 	  }
